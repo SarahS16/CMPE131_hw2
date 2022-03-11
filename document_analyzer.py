@@ -16,4 +16,6 @@ print('\r')
 for keys in list(sorted_val.keys())[0:5]:
     print(keys, ":", sorted_val[keys])
 
+print('\r')
+
 
