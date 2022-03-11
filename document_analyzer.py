@@ -14,6 +14,6 @@ sorted_val = dict(sorted(counter.items(), key = lambda x:x[1], reverse = True))
 
 
 for keys in list(sorted_val.keys())[0:5]:
-    print(keys, ":", sorted_val[keys])
+    print('\r', keys, ":", sorted_val[keys])
 
 
