@@ -1,5 +1,5 @@
 
-words = open("/home/sarah/Desktop/CMPE131/Hw2/document.txt","r")
+words = open("document.txt","r")
 words = words.read().strip()
 words = words.split()
 words.sort()
