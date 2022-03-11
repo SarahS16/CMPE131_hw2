@@ -2,7 +2,7 @@
 
 
 with open("/home/sarah/Desktop/CMPE131/Hw2/document.txt", "r") as analyze:
-    words = analyze.read().split(' ')
+    words = analyze.read().split()
 
 
 
@@ -24,4 +24,4 @@ for i in sorted_val:
             sorted_counter[j] = counter[j]
             break
 
-print(list(sorted_counter.items())[0:5])
+#print(list(sorted_counter.items())[0:5])
